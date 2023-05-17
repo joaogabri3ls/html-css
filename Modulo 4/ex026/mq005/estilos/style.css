@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: #59656F;
+}
+
+h1 {
+    font-family: 'Bebas Neue', arial, sans-serif;
+    text-align: center;
+    color:#F2F5FF;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.438);
+}
+
+span#menu {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#menu:hover {
+    background-color: #03B5AA;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #F2F5FF;
+    border-top: 1px solid white;
+}
+
+menu a:hover {
+    background-color: #03B5AA;
+}
+
+main {
+    width: 90vw;
+    background-color: gray;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main h2 {
+    padding-bottom: 10px;
+}
+
+article {
+    text-align: justify;
+    text-indent: 20px;
+
+}
