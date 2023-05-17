@@ -13,7 +13,7 @@ html, body {
 }
 
 header {
-    background-color: #59656F;
+    background-color:#304C89;
 }
 
 h1 {
@@ -34,7 +34,7 @@ span#menu {
 }
 
 span#menu:hover {
-    background-color: #03B5AA;
+    background-color:#648DE5;
 }
 
 menu {
@@ -55,7 +55,7 @@ menu a {
 }
 
 menu a:hover {
-    background-color: #03B5AA;
+    background-color: #648DE5;
 }
 
 main {
